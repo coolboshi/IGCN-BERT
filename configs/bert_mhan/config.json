@@ -1,0 +1,19 @@
+{
+    "data_source": "AAPR",
+    "num_class": 2,
+    "max_seq_length": 256,
+    "max_sentences": 50,
+    "batch_size": 32,
+    "learning_rate": 2e-5,
+    "epochs": 5,
+    "warmup_ratio": 0.1,
+    "dropout": 0.3,
+    "hidden_size": 768,
+    "model_type": "./data/bert/bert-base-uncased",
+    "model_name": "BERT_MHAN",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 42,
+    "device": "cuda",
+    "bert_freeze": false
+}

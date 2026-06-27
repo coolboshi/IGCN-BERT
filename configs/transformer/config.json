@@ -1,0 +1,20 @@
+{
+    "data_source": "AAPR",
+    "num_class": 2,
+    "max_seq_length": 256,
+    "batch_size": 32,
+    "learning_rate": 2e-5,
+    "epochs": 5,
+    "warmup_ratio": 0.1,
+    "dropout": 0.5,
+    "dim_model": 768,
+    "num_head": 12,
+    "hidden": 3072,
+    "num_encoder": 6,
+    "model_type": "bert-base-uncased",
+    "model_name": "Transformer",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 42,
+    "device": "cuda"
+}

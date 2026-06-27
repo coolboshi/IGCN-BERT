@@ -1,0 +1,18 @@
+{
+    "data_source": "AAPR",
+    "num_class": 2,
+    "max_seq_length": 256,
+    "batch_size": 32,
+    "learning_rate": 2e-5,
+    "epochs": 5,
+    "warmup_ratio": 0.1,
+    "dropout": 0.3,
+    "hidden_size": 768,
+    "num_layers": 13,
+    "model_type": "allenai/scibert-scivocab-uncased",
+    "model_name": "SciBERT_Gate",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 42,
+    "device": "cuda"
+}

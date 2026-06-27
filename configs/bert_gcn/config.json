@@ -1,0 +1,18 @@
+{
+    "dataset": "mr",
+    "nfeat": 768,
+    "nhid": 200,
+    "nclass": 2,
+    "dropout": 0.5,
+    "batch_size": 2,
+    "learning_rate": 2e-5,
+    "epochs": 30,
+    "warmup_ratio": 0.1,
+    "model_type": "./data/bert/scibert-scivocab-uncased",
+    "model_name": "BERT_GCN",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 42,
+    "device": "cuda",
+    "bert_freeze": false
+}

@@ -1,0 +1,19 @@
+{
+    "data_source": "AAPR",
+    "num_class": 2,
+    "max_seq_length": 256,
+    "batch_size": 8,
+    "learning_rate": 2e-5,
+    "epochs": 5,
+    "warmup_ratio": 0.1,
+    "keep_prob": 0.3,
+    "hidden_size": 768,
+    "l_layers": 3,
+    "d_A": 32,
+    "M_igcn": 3,
+    "model_type": "./data/bert/scibert-scivocab-uncased",
+    "model_name": "IGCNBERT",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 123
+}

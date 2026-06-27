@@ -1,0 +1,21 @@
+{
+    "data_source": "AAPR",
+    "num_class": 2,
+    "max_seq_length": 256,
+    "batch_size": 8,
+    "learning_rate": 2e-5,
+    "epochs": 5,
+    "warmup_ratio": 0.1,
+    "keep_prob": 0.3,
+    "hidden_size": 768,
+    "predict_dim": 128,
+    "k": 4,
+    "alpha": 0.5,
+    "top_rate": 0.3,
+    "model_type": "./data/bert/scibert-scivocab-uncased",
+    "model_name": "DGCBERT",
+    "mode": "top_biaffine+softmax",
+    "optimizer": "ADAMW",
+    "scheduler": "cosine",
+    "seed": 123
+}
